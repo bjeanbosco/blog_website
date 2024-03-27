@@ -18,16 +18,28 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.about{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../public/group.jpg);
+}
+
+.contact{
+  background-image: url(../public//contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.register{
+  background-image: url(../public/register.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
